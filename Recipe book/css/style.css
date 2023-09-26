@@ -1,0 +1,291 @@
+html {
+	background: darkslategrey;
+	font-style: Arial;
+}
+.title {
+	margin-top: 0px;
+	font-family: cursive;
+
+}
+nav { 
+  align-items: center;
+  margin-left: 10%;
+  margin-right: 10%;
+  color: beige;
+  background-color: #55ACEE;
+  display: flex;
+  justify-content: space-around;
+}
+
+
+.menu {
+  text-align: center;
+  background-color: #55ACEE;
+  color: beige;
+  padding: 5px;
+  display: flex;
+}
+
+.searchBar  {
+	padding-left: 30px;
+	float: right;
+}
+
+fa fa-search.searchBar
+
+.fa {
+	margin-left: 122%;
+	color: beige;
+
+/* types of meal section */
+}
+.initalDisplay {
+ display: flex;
+ justify-content: space-between;
+}
+
+.initalDisplayImages {
+ padding-inline: 20%; 
+ padding-top: 0px;
+	color: yellowgreen;
+	margin-right: 35px;
+  text-align: center; 
+}
+/* wanted the spacing between images to be 1/5 of the image weight */
+
+
+/* Collage information section */
+
+.moreInformation{
+	padding-top: 14px;
+	display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-bottom: 14px;
+}
+
+section{
+  display: flex;
+  justify-content: space-between;
+  
+  margin-left: 180px;
+  margin-right: 180px;
+  padding-top: 40px;
+  padding-bottom: 60px;
+}
+
+
+
+/* Main recipe body  */
+.importantHighlight{
+
+width: 1200px;
+border: 15px solid white;
+border-block-color: olive;
+position: center;
+ margin-left: 100px;
+}
+
+.keyThings {
+ display: flex;
+  align-items: flex-start;
+}
+
+.ingredientList {
+  
+  margin-right: 55px; 
+  align-content: left;
+}
+
+li.assemble1,
+li.assemble2 {
+  flex: 1;
+  align-content: right;
+  text-orientation: mixed;
+}
+.title {
+	color: #55ACEE ;
+	font-size: 24px;
+}
+h1.center{
+  color: #55ACEE;
+    font-size: 15px;
+}
+
+
+label[for="email"]{
+  color: #55ACEE;
+    font-size: 20px;
+}
+
+h1.ingredientList{
+	text-align: center;
+	text-orientation: top;
+	
+}
+
+h1.keyThings{
+	font-family: fantasy;
+}
+h1.importantHighlight {
+  color: #55ACEE;
+    font-size: 33px;
+}
+
+.ingredientList{
+	text-align: left;
+	padding-right: 12px;
+	width: 350px
+}
+.assemble1{
+	text-align: right;
+  margin: 0 10px; 
+  height: 100%;
+}
+
+
+/* Attempted to make the columns so the indgredients and instructions were side by side. I wanted the title at he top of the list however it didnt work  */
+
+
+h2.nutrients{
+
+color: #55ACEE ;
+position: center;
+
+}
+
+
+.nutrients {
+	position: center;
+}
+
+h1 {
+
+	color: beige;
+	font-family: fantasy;
+	margin-bottom: 0px;
+	content: 21px;
+	padding-bottom: 0;
+	 
+
+}
+h2.shift { 
+	padding-top: 0px;
+	color: yellowgreen;
+	margin-top: auto;
+  margin-bottom: 22px;
+  
+
+ }
+
+h2.trio {
+
+	padding-top: 0px;
+	color: yellowgreen;
+	margin-top: auto;
+  margin-bottom: auto;
+  text-align: center;
+
+}
+ .nav {
+	width: 70%;
+	background: saddlebrown;
+	margin-left: 15%;
+	margin-right: 15%;
+	padding: 10px;
+	font-size: 18px;
+	display: inline-block;
+
+ }
+
+
+h3.menu  { 
+display: inline-block;
+ }
+
+
+
+
+ h3 { 
+	font-family: Georgia;
+	color: yellowgreen;
+	font-variant: revert;
+	font-size-adjust: 1.2;
+ }
+
+ p {
+
+	font-family: verdana;
+	font-size: 20px;
+	color: floralwhite;
+	margin-inline: 102px;
+
+ }
+
+ ul {
+
+	font-family: verdana;
+	font-size: 25px;
+	color: beige;
+	text-align: left;
+ }
+
+ ol {
+
+	font-family: verdana;
+	font-size: 25px;
+	color: beige;
+	text-align: left;
+ }
+em { 
+	font-family: Georgia;
+	color: beige;
+	font-variant: revert;
+	font-size-adjust: 1.2;
+ }
+
+
+li {
+	font-size: 15px;
+
+}
+
+h2.reviews{
+	color: #55ACEE;
+	font-size: 32px;
+}
+
+.commentBox,
+.commentBox2,
+.commentBox3 {
+	text-align: left;
+	margin-left: 10%;
+	margin-right: 10%;
+	padding-top: 10px;
+	padding-left: 5%;
+	padding-right: 5%;
+ border: 8px solid white;
+}
+
+
+ #sectionOne {  
+background-color: ;
+ }
+
+ #reviewSection {
+
+ 	background: ;
+ }
+
+ .checked {
+  color: orange;
+}
+
+
+footer{
+	display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  margin-bottom: 0;
+}
